@@ -1,4 +1,4 @@
-package com.dialogueOptionRebinder;
+package com.DialogueOptionRebinderPlugin;
 
 import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;
@@ -6,7 +6,7 @@ import net.runelite.client.config.ConfigItem;
 import net.runelite.client.config.Keybind;
 
 @ConfigGroup("example")
-public interface dialogueOptionRebinderConfig extends Config
+public interface DialogueOptionRebinderConfig extends Config
 {
 	String GROUP = "Dialogue-option-rebinder";
 
